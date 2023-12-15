@@ -1,0 +1,13 @@
+# Schema: https://doc.rust-lang.org/cargo/reference/manifest.html
+[package]
+name = "cargo-github-annotation"
+version = "1.0.0"
+edition = "2021"
+authors = ["Matthew Rodusek <bitwize@users.noreply.github.com>"]
+categories = ["development-tools"]
+keywords = ["github"]
+license = "MIT OR APACHE-2"
+description = "A small tool to convert cargo JSON output into Github annotations"
+
+[dependencies]
+serde_json = { version = "1.0.108" }
